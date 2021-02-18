@@ -1,5 +1,4 @@
-# Simple to use clock wrapper
-
+# Simple to use std::chrono wrapper
 ### Simple example
 ```c++
 
