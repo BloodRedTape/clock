@@ -1,5 +1,6 @@
 # Simple to use std::chrono wrapper
-### Simple example
+## Inspired by SFML Clock
+### Example
 ```c++
 
 #include <iostream>
@@ -12,8 +13,6 @@ int main(){
 
     float seconds = clock.GetElapsedTime().AsSeconds();
     std::cout << "Long code took " << seconds << "seconds" << std::endl; 
-
-    //reset clock to 0
 }
 
 ```
